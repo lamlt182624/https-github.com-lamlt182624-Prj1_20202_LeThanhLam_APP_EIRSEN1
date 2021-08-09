@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_below="@+id/layoutm"
+    tools:context=".FeedBackActivity">
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="@string/feedback_information"
+        android:textSize="30dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:text="@string/feedback_name"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/name1"
+                android:layout_margin="5dp"
+                android:hint="@string/your_name"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:text="@string/feedback_phone"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/phone1"
+                android:layout_margin="5dp"
+                android:hint="@string/your_phone_number"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:text="@string/feedback_address"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/address1"
+                android:layout_margin="5dp"
+                android:hint="@string/your_address"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:text="@string/feedback_gmail"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/gmail1"
+                android:layout_margin="5dp"
+                android:hint="@string/your_gmail"
+                android:textSize="20dp"/>
+        </TableRow>
+
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/feedback_feedback"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/feedback1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_feedback"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_submit_btn"
+            android:layout_gravity="right"
+            android:layout_margin="30dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

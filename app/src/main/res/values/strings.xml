@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">airsen</string>
+    <string name="channel_description" translatable="false">airsen</string>
+    <string name="channel_name" translatable="false">near notification</string>
+    <string name="air_map" translatable="false">Air Map</string>
+    <string name="saving_environment_title">Saving environment for better life</string>
+
+    <string name="detail_information">Detail Information</string>
+    <string name="device_name">Device name</string>
+    <string name="location">Location</string>
+    <string name="use_target">User target</string>
+    <string name="time">Time</string>
+    <string name="aqi_index">AQI index</string>
+    <string name="pm2p5_index">PM2.5 index(ug/m3)</string>
+    <string name="pm1_index">PM1 index(ug/m3)</string>
+    <string name="pm10_index">PM10 index(ug/m3)</string>
+    <string name="co_index">CO index(ug/m3)</string>
+    <string name="temperature">Temperature(*C)</string>
+    <string name="humidity">Humidity(%)</string>
+    <string name="value">Value</string>
+    <string name="type">Type</string>
+    <string name="recommend">Recommend</string>
+    <string name="no_information">No information</string>
+    <string name="aqi_chart_a_hour">AQI chart in day follow a hour</string>
+    <string name="aqi_chart_8_hour">AQI chart in day follow 8 hours</string>
+    <string name="aqi_chart_24_hour">AQI chart in weak follow a day</string>
+    <string name="aqi_chart_future">AQI chart future follow a hour</string>
+
+    <string name="setting_notification_all">Setting_notification</string>
+    <string name="setting_notification_1">Sent me notification in my favorite place</string>
+    <string name="setting_notification_2">Sent me notification near me</string>
+    <string name="setting_notification_note">Note : app do not sent notification when you do not choice any function</string>
+
+    <string name="setting_submit_btn">Submit</string>
+    <string name="setting_submit_btn_cancel">Cancel</string>
+
+    <string name="setting_language">Choice your language</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="English">English US</string>
+    <string name="German">German</string>
+
+    <string name="Choice">Choice</string>
+    <string name="favorite_place">For your favorite place</string>
+    <string name="favorite_place_note">We will send notification if this place have high AQI index</string>
+
+    <string name="index_aqi_dialog_map">AQI index : </string>
+    <string name="warning_dialog_map">Warning : </string>
+    <string name="view_detail_dialog_map">View detail</string>
+
+
+    <string name="loading">Loading...</string>
+
+    <string name="continuing_update">Continuing up date</string>
+
+    <string name="feedback_information">Feedback information</string>
+    <string name="feedback_name">Name</string>
+    <string name="feedback_phone">Phone number</string>
+    <string name="feedback_address">Address</string>
+    <string name="feedback_gmail" translatable="false">Gmail</string>
+    <string name="feedback_feedback">Feedback</string>
+    <string name="your_name">Your name</string>
+    <string name="your_phone_number">Your phone number</string>
+    <string name="your_address">Your address</string>
+    <string name="your_feedback">Your feedback</string>
+    <string name="your_gmail">Your gmail</string>
+
+    <string name="contact_information">Contact information</string>
+    <string name="contact_facebook">Fb link</string>
+    <string name="contact_zalo">Zalo link</string>
+    <string name="contact_gmail">Gmail link</string>
+    <string name="contact_phone_number">Phone number</string>
+    <string name="contact_github">Github link</string>
+    <string name="contact_office" translatable="false">Bach khoa ha noi</string>
+    <string name="office">Office</string>
+
+    <string name="about_us">About Us</string>
+    <string name="about_content">We are members of Sparc Lab ....</string>
+
+    <string name="setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="notification">Notification</string>
+    <string name="share_app">Share whit your freind</string>
+    <string name="contact_with_us">Contact with us</string>
+    <string name="feedback">Feedback</string>
+    <string name="Help">Help</string>
+    <string name="about_us_title">About Us</string>
+    <string name="connect_device">Connect device with wifi</string>
+    <string name="use_for_developer">Use for developer</string>
+    <string name="sign_in_for_developer">Sign in for developer</string>
+
+    <string name="mainactivity_taplayout_map">Map</string>
+    <string name="mainactivity_taplayout_list">List</string>
+    <string name="mainactivity_taplayout_detail">Detail</string>
+    <string name="mainactivity_taplayout_information">Information</string>
+
+    <string name="check_internet_access_title">No Internet Connection</string>
+    <string name="check_internet_access_content">You need to have Mobile Data or wifi to access this. Press ok to Exit</string>
+
+
+    <string name="warning_aqi_hazardous">Hazardous</string>
+    <string name="warning_aqi_very_unhealthy">Very Unhealthy</string>
+    <string name="warning_aqi_unhealthy">Unhealthy</string>
+    <string name="warning_aqi_unhealthy_for_sensitive">Unhealthy For Sensitive Group</string>
+    <string name="warning_aqi_moderate">Moderate</string>
+    <string name="warning_aqi_good">Good</string>
+
+
+    <string name="ssid_title" translatable="false">SSID: </string>
+    <string name="bssid_title" translatable="false">BSSID: </string>
+    <string name="password_title" translatable="false">Password: </string>
+    <string name="device_count_title" translatable="false">Device count: </string>
+    <string name="package_broadcast" translatable="false">Broadcast</string>
+    <string name="package_multicast" translatable="false">Multicast</string>
+    <string name="confirm">Confirm</string>
+    <string name="wifi_5g_message" translatable="false">Device don\'t support 5G Wifi, please make sure the currently connected Wifi is 2.4G</string>
+    <string name="location_disable_message" translatable="false">Location(GPS) is disable</string>
+    <string name="no_wifi_connection">No Wifi connection</string>
+    <string name="configure_wifi_change_message" translatable="false">Wifi disconnected or changed</string>
+    <string name="lon">lon</string>
+    <string name="lang">lang</string>
+    <string name="content">content1</string>
+    <string name="id">id</string>
+    <string name="channel_name1">channal2</string>
+    <string name="channel_description1">"channel_description2 "</string>
+    <string name="setting_submit_btn1">See more</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_out">sign_out</string>
+    <string name="sign_in">sign_in</string>
+    <string name="sign_in1">sign_up</string>
+    <string name="Password">Password</string>
+    <string name="Singup">Singup</string>
+
+
+</resources>

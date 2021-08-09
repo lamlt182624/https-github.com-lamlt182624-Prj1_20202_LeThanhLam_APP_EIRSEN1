@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_new_url_type_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="type"
+            android:maxLines="3"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_new_url_time_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="Time"
+            android:maxLines="3"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_new_url_tittle_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="Tittle"
+            android:maxLines="3"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_new_url_content_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="Content"
+            android:maxLines="3"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt_new_url_url_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="Url"
+            android:maxLines="3"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_new_url_send_developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="30dp"
+            android:text="Send" />
+
+    </LinearLayout>
+</ScrollView>

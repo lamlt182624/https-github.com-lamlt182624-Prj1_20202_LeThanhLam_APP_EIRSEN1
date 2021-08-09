@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393498308330",
+    "firebase_url": "https://airsen1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "airsen1",
+    "storage_bucket": "airsen1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393498308330:android:bda4e37a526e8e76a97193",
+        "android_client_info": {
+          "package_name": "com.airsen.button"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393498308330-0anre5vrhmro21sceti3phj4t6kqkknd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiwgrKaxWINiAIm0YC5nQWY7wVEtHju68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393498308330-0anre5vrhmro21sceti3phj4t6kqkknd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

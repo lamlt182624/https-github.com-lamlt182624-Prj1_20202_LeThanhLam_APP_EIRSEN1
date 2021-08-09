@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="@string/language"/>
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_notifications_active_black_24dp"
+                android:title="@string/notification" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/about_us"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/Help"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="@string/feedback"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share_app"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="@string/contact_with_us"/>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="@string/sign_out"/>
+
+
+        </menu>
+    </item>
+    <item android:title="@string/use_for_developer">
+        <menu>
+            <item
+                android:id="@+id/nav_smartcogfict"
+                android:icon="@drawable/ic_wifi_black_24dp"
+                android:title="@string/connect_device" />
+            <item
+                android:id="@+id/nav_addnote"
+                android:icon="@drawable/ic_devices_black_24dp"
+                android:title="@string/sign_in_for_developer" />
+        </menu>
+    </item>
+
+
+</menu>

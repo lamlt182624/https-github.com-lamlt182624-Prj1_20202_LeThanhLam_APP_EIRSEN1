@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_notification_all"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_notf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_notification_1" />
+
+    <CheckBox
+        android:id="@+id/cb_notf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_notification_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_notification_note" />
+
+    <Button
+        android:id="@+id/btn_setting_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/setting_submit_btn"
+        android:textColor="#fff"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn_custom_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/setting_submit_btn1"
+        android:textColor="#fff"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
